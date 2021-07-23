@@ -2,6 +2,6 @@ package starter.search;
 
 import org.openqa.selenium.By;
 
-class SearchResultList {
+class PostUi {
     static By RESULT_TITLES = By.cssSelector(".result__title");
 }

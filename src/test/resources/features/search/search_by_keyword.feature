@@ -7,7 +7,8 @@ Feature: Search by keyword
     Then she should see information about "Mailinator 02"
 
   Scenario: post
-    When he enter email "mailinator02@mailinator.com"
-    When he enter pass "12345678a"
-    Then she should see information about "Mailinator 02"
+    Given Hoang click title post
+    When he enter post detail "Autotest"
+    When he click share
+
 

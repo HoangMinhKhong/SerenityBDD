@@ -1,12 +1,11 @@
-package starter.stepdefinitions;
+package stepdefinitions;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import navigation.NavigateTo;
 import net.thucydides.core.annotations.Steps;
-import starter.navigation.NavigateTo;
-import starter.search.LoginEnterFor;
-import starter.search.LoginResult;
+import gapoActions.LoginEnterFor;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -20,7 +19,7 @@ public class LoginStepDefinitions {
     LoginEnterFor loginEnterFor;
 
     @Steps
-    LoginResult LoginResult;
+    gapoActions.LoginResult LoginResult;
 
     @Given("^(?:.*) is researching things on the internet")
     public void i_am_on_the_Gapo_login_page() {

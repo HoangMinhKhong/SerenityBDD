@@ -1,5 +1,6 @@
-package starter.search;
+package gapoActions;
 
+import gapoUis.LoginForm;
 import net.serenitybdd.core.steps.UIInteractionSteps;
 
 public class LoginResult extends UIInteractionSteps {

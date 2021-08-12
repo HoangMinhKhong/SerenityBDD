@@ -1,5 +1,6 @@
-package starter.search;
+package gapoActions;
 
+import gapoUis.LoginForm;
 import net.serenitybdd.core.steps.UIInteractionSteps;
 import net.thucydides.core.annotations.Step;
 import org.openqa.selenium.Keys;

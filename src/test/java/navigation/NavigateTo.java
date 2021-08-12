@@ -1,4 +1,4 @@
-package starter.navigation;
+package navigation;
 
 import net.thucydides.core.annotations.Step;
 
